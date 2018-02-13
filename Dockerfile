@@ -3,6 +3,10 @@
 #
 FROM ubuntu:17.10
 #
+LABEL 	maintainer="Roberto Innocente <inno@sissa.it>" \
+	version="1.0"
+#
+#
 RUN apt update; apt -yq upgrade; \
 	apt install -yq vim \
 		git \
