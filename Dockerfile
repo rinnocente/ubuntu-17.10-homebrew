@@ -43,9 +43,9 @@ RUN apt update; apt -yq upgrade; \
 	&& ssh-keygen -A
 #
 RUN \
-	ln -s /usr/bin/gfortran-6 /etc/alternatives/f95  \
-	&& ln -s /etc/alternatives/f95 /usr/bin/f95 
-
+	ln -s /usr/bin/gfortran-6 /usr/bin/f95  \
+	&& ln -s /usr/bin/gfortran-6 /usr/bin/gfortran \
+	&& ln -s /usr/bin/gfortran-6 /usr/bin/f90
 #
 CMD /bin/bash
 
