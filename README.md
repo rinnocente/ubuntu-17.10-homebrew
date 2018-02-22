@@ -1,4 +1,4 @@
-# ubuntu-17.10-homebrewed
+# ubuntu-17.10-homebrew
 An ubuntu 17.10 (artful)  with addons for scientific computing 
 
 
